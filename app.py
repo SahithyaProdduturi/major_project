@@ -1107,7 +1107,7 @@ body {
 def load_trained_model():
     url = "https://drive.google.com/uc?id=1scDHnDOlIF_kIWa6pTcNGWAocyfY706_"  # <-- paste your link here
     gdown.download(url, "model.h5", quiet=False)
-    return load_model("model.h5",compile=False,safe_mode=False)
+    return load_model("model.h5",compile=False)
 
 model = load_trained_model()
 
