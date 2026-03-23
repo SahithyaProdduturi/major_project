@@ -2,8 +2,7 @@ numpy
 opencv-python-headless
 pillow
 reportlab
-streamlit==1.25.0
+streamlit==1.22.0
 tensorflow==2.10.1
-keras==2.10.0
 gdown
 h5py
