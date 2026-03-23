@@ -1,8 +1,7 @@
-numpy
-opencv-python-headless
-pillow
-reportlab
 streamlit==1.22.0
 tensorflow==2.10.1
+protobuf==3.19.6
+numpy==1.23.5
 gdown
 h5py
+pillow
