@@ -1105,9 +1105,9 @@ body {
 # -------------------------------
 @st.cache_resource
 def load_trained_model():
-    url = "https://drive.google.com/uc?id=1scDHnDOlIF_kIWa6pTcNGWAocyfY706_"  # <-- paste your link here
-    gdown.download(url, "model.h5", quiet=False)
-    return load_model("model.h5",compile=False,safe_mode=False)
+    url = "https://drive.google.com/uc?id=1Dv6JIAezKJcyJUh7eoyt3tJ0d_QDB-wT"  # <-- paste your link here
+    gdown.download(url, "model_keras.keras", quiet=False)
+    return load_model("model_keras.keras")
 
 model = load_trained_model()
 
