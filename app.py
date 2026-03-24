@@ -1107,7 +1107,7 @@ body {
 def load_trained_model():
     url = "https://drive.google.com/uc?id=11WzeDiH8Hnzl7uwEI5AsPG9KSQWkCNf1"  # <-- paste your link here
     gdown.download(url, "model.h5", quiet=False)
-    return load_model("model.h5",compile=False)
+    return tf.keras.models.load_model("model.h5", compile=False, safe_mode=False)
 
 model = load_trained_model()
 
